@@ -201,14 +201,6 @@ a {
   padding: 120px 0;
 }
 
-.container-two {
-  max-width: 1128px;
-  min-height: 104px;
-  margin: 0 auto;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .mission {
   position: absolute;
     width: 1px;
@@ -240,12 +232,15 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
-  display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
+  gap: 8px;
+  
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
 }
 .feature-item {
   font-weight: 400;
@@ -253,6 +248,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
+    
+
 }
 
 /* our team */
@@ -264,12 +262,6 @@ a {
   margin:0 auto;
 }
 
-.container-three{
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-
-}
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -310,7 +302,6 @@ a {
 }
 
 .team-name {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -319,7 +310,6 @@ a {
   color: #2e2f42;
 }
 .team-profession {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -330,15 +320,8 @@ a {
 /* our portfolio*/
 
 .section-portfolio{
-  width: 1128px;
-  height: 1000px;
-
-}
-
-.container-four{
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
 
 }
 .our-portfolio {
@@ -364,18 +347,20 @@ a {
 .project-cart {
   background: #FFFFFF;
   width: calc((100% - 48px) / 3);
-  
+  box-sizing: border-box;
+   
 }
 
 .box-portfolio{
-  display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-top: none;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
-    padding: 32px 16px
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  border-top: none;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+    
 }
 
 .cart-content {
@@ -384,6 +369,11 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .cart-content-item {
