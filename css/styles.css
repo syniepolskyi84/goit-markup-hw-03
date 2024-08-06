@@ -202,7 +202,7 @@ a {
     
 }
 
-.mission .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -254,6 +254,7 @@ a {
   width: 1440px;
   height: 732px;
   margin:0 auto;
+
 }
 
 .our-team {
@@ -278,6 +279,7 @@ a {
 }
 .member-team {
   background: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .box-team{
