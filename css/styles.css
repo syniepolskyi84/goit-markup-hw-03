@@ -34,6 +34,10 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* #region header*/
 
 .page-header {
@@ -198,7 +202,7 @@ a {
     
 }
 
-.visually-hidden {
+.mission .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -264,7 +268,6 @@ a {
   margin-bottom: 72px;
   padding-top: 124px;
   justify-content: center;
-
 }
 
 .our-team-list {
@@ -297,6 +300,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-profession {
   font-weight: 400;
