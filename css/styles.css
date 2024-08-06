@@ -251,8 +251,8 @@ a {
 
 .section-team {
   background: #f4f4fd;
-  width: 1440px;
-  height: 732px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   margin:0 auto;
 
 }
@@ -267,7 +267,7 @@ a {
   color: #2e2f42;
   align-items: center;
   margin-bottom: 72px;
-  padding-top: 120px;
+  
   justify-content: center; 
 }
 
